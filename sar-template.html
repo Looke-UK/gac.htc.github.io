@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Subject Access Request (SAR) template — WeTheParents</title>
+<meta name="description" content="A ready-to-use Subject Access Request letter template for asking a school for your child's educational record and personal data.">
+<meta property="og:title" content="Subject Access Request (SAR) template — WeTheParents">
+<meta property="og:description" content="A ready-to-use letter template for asking a school for your child's educational record and personal data.">
+<meta property="og:site_name" content="WeTheParents">
+<meta property="og:url" content="https://www.wetheparents.co.uk/sar-template.html">
+<meta name="theme-color" content="#1B4B5A">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700;800;900&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --teal:#1B4B5A; --teal-2:#24616F; --teal-deep:#123642; --slate:#4A5A66; --grey:#77848D;
+    --amber:#F2A93B; --amber-2:#FFC163; --orange:#F0762A;
+    --paper:#F2F5F6; --card:#FFFFFF; --text:#1D2B32; --muted:#5C6B74; --muted-ink:#A9C0C8;
+    --line:#D8E0E3; --line-ink:rgba(255,255,255,.14); --wrap:1140px; --r:14px;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  body{margin:0;background:var(--paper);color:var(--text);
+    font-family:"Source Serif 4",Georgia,serif;font-size:19px;line-height:1.6;-webkit-font-smoothing:antialiased}
+  h1,h2,h3,h4,h5,.sans,.eyebrow,.btn,nav{font-family:"Source Sans 3",Helvetica,Arial,sans-serif}
+  a{color:var(--teal);text-underline-offset:3px}
+  img{max-width:100%;display:block}
+  .wrap{max-width:var(--wrap);margin:0 auto;padding:0 24px}
+
+  /* logo */
+  .logo-mark{display:block;flex:0 0 auto;color:var(--teal)}
+  .logo-mark .star,.logo-mark .dot,.logo-mark .dot-lead{fill:var(--amber)}
+  .on-dark .logo-mark{color:#FFFFFF}
+  .wordmark{font-family:"Source Sans 3";font-weight:800;letter-spacing:-.02em;line-height:1;white-space:nowrap}
+  .wordmark .w-we{color:var(--teal)} .wordmark .w-the{color:var(--slate)} .wordmark .w-par{color:var(--amber)}
+  .on-dark .wordmark .w-we{color:#FFFFFF} .on-dark .wordmark .w-the{color:#A9C0C8} .on-dark .wordmark .w-par{color:var(--amber)}
+  .tagline{font-family:"Source Sans 3";font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--grey);font-size:.66rem;margin-top:5px}
+  .on-dark .tagline{color:var(--muted-ink)}
+
+  /* header */
+  header{position:sticky;top:0;z-index:60;background:rgba(27,75,90,.96);
+    -webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);border-bottom:1px solid var(--line-ink);color:#fff}
+  .bar{display:flex;align-items:center;justify-content:space-between;height:74px;gap:20px}
+  .brand{display:flex;align-items:center;gap:12px;text-decoration:none}
+  .brand .logo-mark{width:40px;height:40px}
+  .brand .wordmark{font-size:1.3rem}
+  nav.desktop{display:flex;gap:24px;align-items:center}
+  nav.desktop a{color:#D6E4E8;text-decoration:none;font-size:.85rem;font-weight:600}
+  nav.desktop a:hover{color:#fff}
+  .nav-cta{background:var(--amber);color:var(--teal-deep)!important;padding:10px 17px;border-radius:8px;font-weight:800}
+  .nav-cta:hover{background:var(--amber-2)}
+  .menu-btn{display:none;background:none;border:1px solid var(--line-ink);color:#fff;border-radius:8px;padding:9px 13px;font-size:.8rem;font-weight:700;cursor:pointer;font-family:"Source Sans 3"}
+  nav.mobile{display:none;flex-direction:column;padding:8px 24px 20px;border-top:1px solid var(--line-ink)}
+  nav.mobile a{color:#D6E4E8;text-decoration:none;padding:12px 0;font-weight:600;font-size:.95rem;border-bottom:1px solid var(--line-ink)}
+  nav.mobile a:last-child{border-bottom:none}
+  @media(max-width:960px){nav.desktop{display:none}.menu-btn{display:block}nav.mobile.open{display:flex}.brand .wordmark{font-size:1.15rem}}
+
+  /* hero */
+  .doc-hero{background:linear-gradient(160deg,var(--teal) 0%,var(--teal-deep) 100%);color:#fff;position:relative;overflow:hidden;
+    padding:64px 0 54px;border-bottom:1px solid var(--line-ink)}
+  .doc-hero .ghost{position:absolute;right:-110px;top:50%;transform:translateY(-50%);width:560px;height:560px;opacity:.06;pointer-events:none}
+  .doc-hero .wrap{position:relative;z-index:2;max-width:900px}
+  .breadcrumb{font-family:"Source Sans 3";font-size:.82rem;font-weight:600;color:var(--muted-ink);text-decoration:none;display:inline-block;margin-bottom:18px}
+  .breadcrumb:hover{color:#fff}
+  .cat-pill{display:inline-flex;font-family:"Source Sans 3";font-weight:700;font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--amber);background:rgba(242,169,59,.14);border:1px solid rgba(242,169,59,.3);border-radius:20px;padding:6px 14px;margin-bottom:18px}
+  .doc-hero h1{font-family:"Source Sans 3";font-weight:900;letter-spacing:-.025em;line-height:1.08;font-size:clamp(2rem,4.6vw,2.8rem);margin:0 0 14px}
+  .doc-hero .lede{font-size:1.1rem;line-height:1.55;color:#D3E3E8;max-width:64ch;margin:0}
+
+  /* explainer */
+  .explain{padding:48px 0 10px}
+  .explain .wrap{max-width:760px}
+  .info-card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:24px 28px;margin:0 0 20px}
+  .info-card h2{font-family:"Source Sans 3";font-weight:800;font-size:1.1rem;color:var(--teal);margin:0 0 10px}
+  .info-card p{margin:0 0 10px;color:var(--muted);font-size:.98rem}
+  .info-card p:last-child{margin-bottom:0}
+  .info-card ul{margin:0;padding-left:1.2em;color:var(--muted);font-size:.98rem}
+  .info-card li{margin:0 0 8px}
+  .info-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+  @media(max-width:700px){.info-grid{grid-template-columns:1fr}}
+
+  /* letter */
+  .letter-section{padding:20px 0 60px}
+  .letter-section .wrap{max-width:760px}
+  .letter-toolbar{display:flex;gap:12px;flex-wrap:wrap;align-items:center;justify-content:space-between;margin-bottom:16px}
+  .letter-toolbar h2{font-family:"Source Sans 3";font-weight:800;font-size:1.2rem;color:var(--teal-deep);margin:0}
+  .letter-actions{display:flex;gap:10px}
+  .btn{display:inline-flex;align-items:center;gap:8px;text-decoration:none;font-family:"Source Sans 3";font-weight:800;
+    font-size:.85rem;padding:11px 18px;border-radius:9px;cursor:pointer;border:1px solid transparent;background:none}
+  .btn.teal{background:var(--teal);color:#fff}
+  .btn.teal:hover{background:var(--teal-2)}
+  .btn.ghost-teal{background:transparent;color:var(--teal);border-color:var(--line)}
+  .btn.ghost-teal:hover{border-color:var(--teal)}
+  .btn svg{width:15px;height:15px}
+  .letter{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:44px 48px;box-shadow:0 10px 30px rgba(18,54,66,.06)}
+  .letter p{margin:0 0 16px;font-size:1rem;line-height:1.7}
+  .letter p.tight{margin-bottom:2px}
+  .letter .sig-space{height:46px}
+  mark.fill{background:rgba(242,169,59,.4);color:var(--teal-deep);padding:1px 6px;border-radius:4px;font-weight:700;
+    font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:.85em}
+  .bullets{margin:0 0 16px;padding-left:1.4em}
+  .bullets li{margin:0 0 8px}
+
+  .disclaimer-note{margin-top:22px;color:var(--muted);font-size:.86rem;line-height:1.6}
+
+  @media print{
+    header,footer,.doc-hero,.explain,.letter-toolbar,.disclaimer-note{display:none!important}
+    body{background:#fff}
+    .letter-section{padding:0}
+    .letter{border:none;box-shadow:none;padding:0}
+    mark.fill{background:none;padding:0;border-bottom:1px dotted #333}
+  }
+
+  /* footer */
+  footer.on-dark{background:var(--teal-deep);color:var(--muted-ink);padding:56px 0 30px}
+  .foot-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:34px}
+  .foot-grid h5{font-family:"Source Sans 3";text-transform:uppercase;letter-spacing:.12em;font-size:.72rem;color:#fff;margin:0 0 14px}
+  .foot-grid a{color:var(--muted-ink);text-decoration:none;display:block;padding:6px 0;font-size:.92rem}
+  .foot-grid a:hover{color:var(--amber)}
+  .foot-brand .flogo{display:flex;align-items:center;gap:11px}
+  .foot-brand .logo-mark{width:38px;height:38px}
+  .foot-brand .wordmark{font-size:1.2rem}
+  .foot-brand p{font-size:.92rem;margin:14px 0 0;max-width:34ch}
+  .foot-brand .mail{margin-top:14px;font-family:"Source Sans 3";font-weight:700;font-size:.95rem}
+  .foot-brand .mail a{display:inline;color:var(--amber);padding:0}
+  .disclaimer{border-top:1px solid var(--line-ink);margin-top:44px;padding-top:24px;font-size:.82rem;line-height:1.6}
+  .disclaimer p{margin:0 0 12px}
+  .foot-bot{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;margin-top:20px;font-size:.8rem}
+  @media(max-width:760px){.foot-grid{grid-template-columns:1fr 1fr}}
+
+  a:focus-visible,button:focus-visible{outline:3px solid var(--amber);outline-offset:2px;border-radius:4px}
+  .skip{position:absolute;left:-9999px;background:var(--amber);color:var(--teal-deep);padding:12px 18px;font-family:"Source Sans 3";font-weight:800;border-radius:0 0 8px 0;z-index:99}
+  .skip:focus{left:0;top:0}
+</style>
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="wtp-mark" viewBox="0 0 100 100">
+    <path d="M18 8 h64 a12 12 0 0 1 12 12 v40 a12 12 0 0 1 -12 12 h-36 l-14 18 v-18 h-14 a12 12 0 0 1 -12 -12 v-40 a12 12 0 0 1 12 -12 z"
+          fill="none" stroke="currentColor" stroke-width="8" stroke-linejoin="round"/>
+    <circle cx="24" cy="56" r="4.2" class="dot-lead" fill="#F2A93B"/>
+    <circle cx="34" cy="53" r="2.6" class="dot" fill="#F2A93B"/>
+    <circle cx="43" cy="49" r="2.9" class="dot" fill="#F2A93B"/>
+    <circle cx="52" cy="44" r="3.2" class="dot" fill="#F2A93B"/>
+    <path class="star" d="M66 18 L69.6 29.1 L81.2 29.1 L71.8 35.9 L75.4 46.9 L66 40.1 L56.6 46.9 L60.2 35.9 L50.8 29.1 L62.4 29.1 Z" fill="#F2A93B"/>
+  </symbol>
+</svg>
+
+<header class="on-dark">
+  <div class="wrap bar">
+    <a class="brand" href="index.html#top" aria-label="WeTheParents — home">
+      <svg class="logo-mark" aria-hidden="true"><use href="#wtp-mark"/></svg>
+      <span>
+        <span class="wordmark"><span class="w-we">We</span><span class="w-the">The</span><span class="w-par">Parents</span></span>
+        <span class="tagline" style="display:block">Your voice. Your rights. Your child.</span>
+      </span>
+    </a>
+    <nav class="desktop" aria-label="Primary">
+      <a href="index.html#stance">Our stance</a>
+      <a href="index.html#rights">Know your rights</a>
+      <a href="index.html#ladder">Complaints ladder</a>
+      <a href="index.html#schools">Our schools</a>
+      <a href="index.html#about">About</a>
+      <a class="nav-cta" href="index.html#share">Share your experience</a>
+    </nav>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mobileNav">Menu</button>
+  </div>
+  <nav class="mobile" id="mobileNav" aria-label="Primary mobile">
+    <a href="index.html#stance">Our stance</a>
+    <a href="index.html#rights">Know your rights</a>
+    <a href="index.html#ladder">Complaints ladder</a>
+    <a href="index.html#schools">Our schools</a>
+    <a href="index.html#about">About</a>
+    <a href="index.html#share">Share your experience</a>
+    <a href="mailto:help@wetheparents.co.uk">help@wetheparents.co.uk</a>
+  </nav>
+</header>
+
+<main id="main">
+
+  <section class="doc-hero">
+    <svg class="ghost logo-mark on-dark" aria-hidden="true"><use href="#wtp-mark"/></svg>
+    <div class="wrap">
+      <a class="breadcrumb" href="index.html#rights">← Back to Know your rights</a>
+      <span class="cat-pill">Getting information out of a school</span>
+      <h1>Subject Access Request (SAR) template</h1>
+      <p class="lede">Use this letter to ask a school for a copy of your child's educational record and any other personal data they hold about them. Fill in the highlighted sections, then print, email, or post it.</p>
+    </div>
+  </section>
+
+  <section class="explain">
+    <div class="wrap">
+      <div class="info-grid">
+        <div class="info-card">
+          <h2>What this is</h2>
+          <p>A Subject Access Request (SAR) is a legal right to ask any organisation that holds information about your child — including their school — for a copy of it, under UK data protection law.</p>
+          <p>For a pupil's <strong>educational record</strong> specifically, there is a faster, separate right under the Education (Pupil Information) (England) Regulations 2005 — this template asks under both.</p>
+        </div>
+        <div class="info-card">
+          <h2>What to expect</h2>
+          <ul>
+            <li>It's normally <strong>free</strong> — schools can only charge in limited circumstances.</li>
+            <li>You don't need to give a reason.</li>
+            <li>General SAR: response within <strong>one calendar month</strong>.</li>
+            <li>Educational record only: response within <strong>15 school days</strong>.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="info-card">
+        <h2>Who to send it to</h2>
+        <p>Address it to the school's Data Protection Officer if they have one, or to the Headteacher if not. For an academy, you can also send it to the trust's central office. Keep a copy of what you send and note the date — this starts the clock on their response deadline.</p>
+        <p>If you're unhappy with the response, or don't get one, you can complain to the school in writing first, then to the <a href="https://ico.org.uk/" target="_blank" rel="noopener">Information Commissioner's Office (ICO)</a>. See our <a href="privacy-policy.html">Privacy Policy</a> for how WeTheParents itself handles data requests.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="letter-section">
+    <div class="wrap">
+      <div class="letter-toolbar">
+        <h2>Your letter</h2>
+        <div class="letter-actions">
+          <button class="btn ghost-teal" id="copyBtn" type="button">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            Copy text
+          </button>
+          <button class="btn teal" id="printBtn" type="button">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9V2h12v7"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+            Print
+          </button>
+        </div>
+      </div>
+
+      <div class="letter" id="letterBody">
+        <p class="tight"><mark class="fill">[Your full name]</mark></p>
+        <p class="tight"><mark class="fill">[Your address line 1]</mark></p>
+        <p class="tight"><mark class="fill">[Your address line 2]</mark></p>
+        <p class="tight"><mark class="fill">[Postcode]</mark></p>
+        <p><mark class="fill">[Your email address]</mark> · <mark class="fill">[Your phone number]</mark></p>
+
+        <p><mark class="fill">[Date]</mark></p>
+
+        <p class="tight"><mark class="fill">[Headteacher's name, or "The Data Protection Officer"]</mark></p>
+        <p class="tight"><mark class="fill">[School name]</mark></p>
+        <p class="tight"><mark class="fill">[School address line 1]</mark></p>
+        <p><mark class="fill">[Postcode]</mark></p>
+
+        <p>Dear <mark class="fill">[Headteacher's name / Sir or Madam]</mark>,</p>
+
+        <p><strong>Re: Subject Access Request — <mark class="fill">[Child's full name]</mark>, date of birth <mark class="fill">[Child's date of birth]</mark></strong></p>
+
+        <p>I am the parent/legal guardian of <mark class="fill">[Child's full name]</mark>, who is a pupil at <mark class="fill">[School name]</mark> in <mark class="fill">[Year group / class]</mark>.</p>
+
+        <p>Under Article 15 of the UK General Data Protection Regulation and the Data Protection Act 2018, and under the Education (Pupil Information) (England) Regulations 2005 in respect of my child's educational record, I am requesting a copy of all personal data you hold about my child, including but not limited to:</p>
+
+        <ul class="bullets">
+          <li>their full educational record, as defined by the Education (Pupil Information) (England) Regulations 2005;</li>
+          <li><mark class="fill">[any specific records — e.g. behaviour logs, SEND records, meeting notes, correspondence]</mark>;</li>
+          <li>any other personal data held about them in any format, including emails and internal notes.</li>
+        </ul>
+
+        <p>Please provide this information in <mark class="fill">[electronic / paper]</mark> format. I understand you are required to respond to the educational record element of this request within 15 school days, and to the wider request within one calendar month.</p>
+
+        <p>If any part of the record is withheld, please confirm this in writing and explain the legal basis relied on.</p>
+
+        <p>If you need to verify my identity or my relationship to <mark class="fill">[Child's full name]</mark>, please let me know what you require.</p>
+
+        <p>Yours faithfully,</p>
+        <div class="sig-space"></div>
+        <p class="tight"><mark class="fill">[Your full name]</mark></p>
+      </div>
+
+      <p class="disclaimer-note">This template is provided as a starting point and is not legal advice. Adjust it to fit your situation, and keep a dated copy of whatever you send.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="on-dark">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <div class="flogo">
+          <svg class="logo-mark" aria-hidden="true"><use href="#wtp-mark"/></svg>
+          <span class="wordmark"><span class="w-we">We</span><span class="w-the">The</span><span class="w-par">Parents</span></span>
+        </div>
+        <p>Community-run help and advice for parents. Independent accountability for Slough's primary and secondary schools.</p>
+        <p class="mail"><a href="mailto:help@wetheparents.co.uk">help@wetheparents.co.uk</a></p>
+      </div>
+      <div>
+        <h5>Know your rights</h5>
+        <a href="index.html#nolan">The Nolan Principles</a>
+        <a href="index.html#ladder">How to complain</a>
+        <a href="index.html#rights">Legal rights (SEND, exclusions)</a>
+        <a href="index.html#rights">SAR &amp; FOI</a>
+      </div>
+      <div>
+        <h5>The movement</h5>
+        <a href="index.html#schools">Our schools</a>
+        <a href="index.html#share">Share your experience</a>
+        <a href="https://www.facebook.com/share/g/18y2XJL3C/" target="_blank" rel="noopener">Join our Facebook group ↗</a>
+        <a href="index.html#about">About us</a>
+        <a href="index.html#stance">Our stance</a>
+      </div>
+      <div>
+        <h5>Governance &amp; standards</h5>
+        <a href="privacy-policy.html">Privacy &amp; your data</a>
+        <a href="mailto:help@wetheparents.co.uk">Contact</a>
+      </div>
+    </div>
+    <div class="disclaimer">
+      <p>WeTheParents provides information and a space for parents to share experiences. Nothing on this site is legal advice. Where legal advice or urgent safeguarding support is needed, we will point you to the appropriate statutory or specialist service.</p>
+      <div class="foot-bot">
+        <span>© <span id="yr"></span> WeTheParents. All rights reserved.</span>
+        <span>Slough, United Kingdom</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var mb=document.getElementById('menuBtn'),mn=document.getElementById('mobileNav');
+  mb.addEventListener('click',function(){
+    var open=mn.classList.toggle('open');
+    mb.setAttribute('aria-expanded',open);mb.textContent=open?'Close':'Menu';
+  });
+  mn.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){
+    mn.classList.remove('open');mb.setAttribute('aria-expanded',false);mb.textContent='Menu';});});
+
+  document.getElementById('yr').textContent=new Date().getFullYear();
+
+  document.getElementById('printBtn').addEventListener('click',function(){window.print();});
+
+  document.getElementById('copyBtn').addEventListener('click',function(){
+    var text=document.getElementById('letterBody').innerText;
+    navigator.clipboard.writeText(text).then(function(){
+      var btn=document.getElementById('copyBtn');
+      var original=btn.innerHTML;
+      btn.textContent='Copied ✓';
+      setTimeout(function(){btn.innerHTML=original;},1800);
+    });
+  });
+</script>
+</body>
+</html>
